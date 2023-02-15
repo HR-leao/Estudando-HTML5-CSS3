@@ -1,0 +1,139 @@
+Cabeçalho
+<!doctype html> para definir que é html 5
+
+Corpo do HTML
+<html> iniciando o corpo do HTML
+	<head> 
+		AS INFORMAÇÕES QUE SÃO COLOCADAS AQUI, GERALMENTE NÃO APARECEM PARA O USUÁRIO.
+		
+
+		<title>Meu site</title> Coloca o nome que aparece na aba
+		
+		Colocar códigos de JavaScript para animações no site ou interação com o usuário
+		Estruturas de formatação
+
+		<meta charset="utf-8"> para ser compatível com o português Brasil
+	</head>
+	
+	<body>	
+		<h1> usado para Transformar a frase em Título. (se for usado qualquer h1 até h6 etc.. não precisa pular linhas)
+	 	<h1></h1>
+	 	<h2></h2>
+	 	<h3></h3>
+	 	<h4></h4>
+	 	<h5></h5>
+	 	<h6></h6>
+
+		 <p></p> usado para criar parágrafos
+
+		<br> Pular Linha (breack = quebrar)
+		Informações que aparecem direto para o usuário
+
+		<hr> cria linha
+
+	FORMATAR TEXTO
+	<strong>Deixa o texto em negrito</strong>
+	 Esse é um texto <em>Itálico</em> <br>
+	 Esse é um texto <u>Underline</u> <br>
+	 Esse é um texto <strike>errado</strike>
+
+	LISTAS NÃO ORDENADA (APARECE CÍRCULO, QUADRADO OU CIRCULO PREENCHIDO)
+	
+	<ul type= "Aqui eu coloco uma das opções abaixo"> 
+		<!-- Teste --> usado para colocar comentários no código
+		<!-- circle (circulo vazio), square (quadrado), disc (circulo preenchido -->
+		<li>Elementos da lista</li>
+	</ul>
+	
+	LISTA ORDENADA (APARECE NÚMERADA)
+	<ol type= "Aqui eu coloco uma das opções abaixo">
+	<!-- Lista ordenada: 1, A, a, I, i -->
+	 <li>Comida favorita? </li>
+	 <li>Carro favorito?</li>
+	</ol>
+
+	INSERIR IMAGEM NO HTML
+
+	<img src="imagens/ferrari.jpg" width="400"> nome da pasta que está a imagem + o nome da imagem.
+	width="400" Definir a largura da imagem em pixels
+	height="100" Definir a Altura da imagem
+
+
+	CRIAR LINKS ENTRE PÁGINAS
+	<a href="Aqui eu coloco o nome do aquivo que eu criei ou o link do site que eu quero">Aqui eu escrevo oq quiser </a>
+
+
+	TABELA
+	
+	 <table border="2"> (Border para escolher a groçura das linhas table para criar a tabela. Abre a tabela
+		<tr> usado para criar as linhas da tabela.
+			<td>coloco oq eu quero aqui </td> (usado para criar os dados dentro da tabela).
+		</tr>
+		
+		exemplo:
+		OBS: pode usar o aligne center para alinhar ao centro da página
+			<table border="2">
+	 		<tr> <!-- CRIA A LINHA DA TABELA-->
+	 			<td>Código</td> Nesse caso que vai ser criad como menu, para diferenciar é só usar <th> em vez de <td>
+	 			<td>Produto</td>
+	 			<td>Preço</td>
+	 		</tr>
+		
+				<td colspan="2"> o colspan é o comando usado para juntar as colunas e o 2 e a quantidade de colunas.
+	 			<td rowspan="2"> o rowspan é o comando usado para juntar as linhas e o 2 e a quantidade de colunas.
+	 </table> Fecha a tabela
+	
+
+	FORMULÁRIOS
+
+	<form>
+	 	Login: <br>
+	 	<input type="text" name="login"> <br>
+
+	 	Senha:<br>
+	 	<input type="password" name="senha"><br>	
+
+	 	<input type="button" value="Logar">
+________________________________________________________
+	PRIMEIO EXEMPLO
+		<h2>Cadastre-se</h2>
+	 	<strong>Login:</strong><br>
+	 	<input type="text" name="login"> <br>
+	 	<strong>Sexo</strong><br>
+_________________________________________________________
+	SEGUNDO EXEMPLO
+	 	<input type="radio" name="sexo" value="M"> Masculino (A função radio é para aparecer a bolinha para marcar a opção.
+	 	<input type="radio" name="sexo" value="F"> Feminino<br>
+_________________________________________________________
+
+_________________________________________________________
+	TERCEIRO EXEMPLO
+		<input type="checkbox" name="Interesses"> Futebol<br> (A função checkbox é para aparecer caixinhas para marcar.
+________________________________________________________
+	QUARTO EXEMPLO
+		<textarea></textarea><br> é usado para aparecer uma caixa para o usuário escrever textos.
+		<select name="estado"> cria uma lista com várias opções para clicar
+		<option value="rj">RJ</option> option é o nome dos elementos que vão estar dentro da lista.
+		 <option value="sp">SP</option>
+		<option value="mg">MG</option>
+		</select><br><br>
+	</form>
+
+CARACTERES ESPECIAIS
+
+
+	</body>
+</html> Finalizando o corpo do HTML
+
+
+
+
+
+
+
+
+
+
+
+
+
