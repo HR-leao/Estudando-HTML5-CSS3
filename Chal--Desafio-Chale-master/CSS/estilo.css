@@ -5,7 +5,7 @@
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: #fff url(/Imagens/bg.png);
+    background: #fff url(../imagens-chale/bg.png);
     margin: 15px;
 }
 
@@ -27,7 +27,7 @@ body {
 
 #area-logo{
     position: absolute;
-    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    background: url(../imagens-chale/topo-imagem-principal.png) no-repeat;
     width: 100%;
     height: 250px;
     top: 0;
@@ -39,7 +39,7 @@ body {
     top: 15px;
     left: 15px;
     z-index: 3;
-    background: url(../imagens/logo.png)no-repeat;
+    background: url(../imagens-chale/logo.png)no-repeat;
     width: 151px;
     height: 66px;
     text-indent: -9000px;
