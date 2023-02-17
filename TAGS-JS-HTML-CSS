@@ -392,3 +392,7 @@ ul {
     border: 1px solid red;
     list-style-type: none; Essa função faz com que a lista não ordenada pare de mostar de qual tipo ela é. EX; se é númerica etc..
 }
+________________________________________________________________________________________
+JAVASCRIPT
+
+
