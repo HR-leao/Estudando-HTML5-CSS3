@@ -395,4 +395,5 @@ ul {
 ________________________________________________________________________________________
 JAVASCRIPT
 
+alert('Olá, seja bem vindo ao curso') Mostra uma janelinha ao abrir o site.
 
